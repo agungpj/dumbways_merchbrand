@@ -16,7 +16,7 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(255, 255, 255);
 }
 
 /* Handle on hover */
@@ -179,9 +179,17 @@ textarea:focus {
 .text-header-product-detail {
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 25px;
   line-height: 66px;
   color: #f74d4d;
+}
+
+.justify-align {
+  text-align: justify;
+}
+
+.img-heading {
+  width: 40vh;
 }
 
 .text-content-product-detail {

@@ -17,6 +17,7 @@ const Card = (props) => {
           <img src={product.image} className="w-100" alt="product"></img>
           <div className="px-4 py-2">
             <h5 className="fw-bold pt-3 products-text pb-1">{product.name}</h5>
+
             <div style={{ color: "white" }}>
               {convertRupiah.convert(product.price)}
             </div>

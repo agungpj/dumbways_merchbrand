@@ -5,10 +5,12 @@ import { productList } from "../utils/dataProduct";
 import Card from "../components/Card";
 
 const PrivateScreen = () => {
+  const title = "Homescreen";
+  document.title = "DumbMerch | " + title;
   return (
     <>
       <div>
-        <Navbar />
+        <Navbar title={title} />
         <Container className="mt-5">
           <Row>
             <Col>

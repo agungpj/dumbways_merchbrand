@@ -1,6 +1,5 @@
 const dataLogin = {
-  isAdmin: false,
-  isUser: false,
+  isAdmin: true,
   isLogin: true,
 };
 
